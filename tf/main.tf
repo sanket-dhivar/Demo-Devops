@@ -10,6 +10,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "resourcegroup-test1"
+  name     = "resourcegroup-test2"
   location = "eastus"
 }
