@@ -10,10 +10,8 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-<<<<<<< Updated upstream
-  name     = "resourcegroup-test2"
-=======
+
   name     = "resourcegroup-test4"
->>>>>>> Stashed changes
+
   location = "eastus"
 }
