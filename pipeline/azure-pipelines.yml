@@ -8,6 +8,9 @@ variables:
   storageAccount: terraformtfstateskip
   container: tfstate
   tfstateFile: terraform.tfstate
+- task: TerraformInstaller@1
+  inputs:
+    terraformVersion: 'latest'
   anyTfChanges: false
 
 steps:
